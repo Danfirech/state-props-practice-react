@@ -1,5 +1,13 @@
+import React from "react";
+
+import Demo from "./components /Demo";
+
 function App() {
-  return <div className="App">Start</div>;
+  return (
+    <div>
+      <Demo name="Daniel" />
+    </div>
+  );
 }
 
 export default App;
